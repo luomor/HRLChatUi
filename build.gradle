@@ -7,6 +7,7 @@ buildscript {
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
         maven { url 'https://maven.aliyun.com/repository/public' }
         maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public' }
+        google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.2'
@@ -23,6 +24,7 @@ allprojects {
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
         maven { url 'https://maven.aliyun.com/repository/public' }
         maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public' }
+        google()
     }
 }
 
